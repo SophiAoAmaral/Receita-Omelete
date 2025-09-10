@@ -7,3 +7,198 @@
     --fontTitle:"Young Serif", serif;
 }
 
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 750px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+   
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    align-items: center;justify-content: center;
+}
+section{
+    width:400px;
+   margin-top:0 ;
+
+}
+.container{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:30px ;
+    height: 1730px;
+    width: 800px;
+    background-color: white;
+}
+
+
+.description{
+    margin: 50px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.description h2{
+    font-family: var(--fontTitle);
+    font-weight:500;
+    font-size: 35px; 
+    
+}
+
+.text{
+    font-size: 16px;
+    font-family: var(---fontText);
+    color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+}
+
+.preparation{
+    background-color: hsla(332, 49%, 67%, 0.274);
+    width: 90%;
+    height: 180px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-align: left;
+    border-radius: 20px;
+
+
+}
+.preparation h3{
+    color: hsl(332, 51%, 32%);
+    padding: 20px 10px 0px 30px;
+    font-family: var(---fontText);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.preparation ul{
+    list-style-position: inside;
+    padding: 20px;
+    
+    
+}
+
+.preparation li{
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: var(---fontText);
+}
+
+.preparation ul li::marker {
+
+    color:hsl(332, 51%, 32%) ;
+}
+
+ span{
+    font-weight: 600;
+}
+
+.ingredients{
+    border-bottom: 1px solid hsla(32, 10%, 34%, 0.274);
+    width: 90%;
+    height: 230px;
+    margin-bottom: 30px;
+}
+.ingredients h2{
+    margin-top: 0;
+    padding: 10px;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+.ingredients ul{
+    list-style-position: inside;
+    padding: 20px;
+}
+
+.ingredients li{
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 16px;
+    font-family: var(---fontText);
+}
+
+.instructions {
+    border-bottom: 1px solid hsla(32, 10%, 34%, 0.274);
+    width: 90%;
+    height: 390px;
+    margin-bottom: 30px;
+}
+
+.instructions ol{
+    list-style-position: inside;
+    padding: 20px;
+}
+.instructions h2{
+    
+    padding: 10px;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+.instructions li{
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 16px;
+    font-family: var(---fontText);
+    line-height: 1.5;
+}
+
+.nutrition{
+   
+    width: 90%;
+    height: 200px;
+}
+
+.nutrition h2{
+    padding: 10px;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+.nutrition p{
+    padding: 10px;
+    font-family: var(---fontText);
+}
+
+table{
+      width: 700px;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-family: var(---fontText);
+}
+tr{
+    border-bottom: 1px solid #ccc;
+}
+    th, td {
+      text-align: left;
+      padding: 10px;
+      background-color: white;
+      
+    }
+    th {
+      font-weight: normal;
+      color: #555;
+    }
+    td {
+      font-weight: bold;
+      color: #a33;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
